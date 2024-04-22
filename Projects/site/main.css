@@ -1,0 +1,30 @@
+h1{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:aqua;
+    font-size: 50px;
+    text-align: center;
+
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: end;
+}
+a{
+    text-decoration: none;
+    text-align:initial;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+div{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
