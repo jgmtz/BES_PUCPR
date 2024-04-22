@@ -1,0 +1,5 @@
+a1 = int(input('digite o primeiro termo da pg: '))
+q = int(input('digite a razão da pg: '))
+n = int(input('digite o termo desejado: '))
+an = an = a1 * q ** (n-1)
+print(f'o {n}º termo da pg é {an}.')
