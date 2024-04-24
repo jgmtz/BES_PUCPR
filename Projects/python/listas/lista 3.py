@@ -1,3 +1,10 @@
+'''
+Criar um programa que lê as temperaturas médias de cada mês
+do ano e as armazena em uma lista. Usar um outro vetor para
+guardar e exibir, quando necessário, os nomes dos meses do ano.
+Calcular a média anual de temperatura, e informar quais meses
+ficaram acima desta média anual
+'''
 meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
 temps = []
 result = []

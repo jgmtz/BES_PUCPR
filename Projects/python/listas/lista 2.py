@@ -1,3 +1,8 @@
+'''
+Criar um programa que solicite ao usuário 2 listas com 5
+elementos cada. Como resultado, criar uma terceira lista que
+intercala os elementos das duas listas.
+'''
 lista1 = []
 lista2 = []
 lista3 = []
