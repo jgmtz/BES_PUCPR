@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <section>
+        <h2>Formulário consultório João's²</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome Completo: </label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required> <br>
+            <label>Digite seu Email: </label>
+            <input type="email" name="email" id="Digite seu email"> <br>
+            <label>Digite a data do atendimento: </label>
+            <input type="date" name="data" id="digite a data do atendimento: "> <br>
+            <label>Digite sua data de nascimento</label>
+            <input type="date" name="data" id="digite sua data de nascimento"> <br>
+            <label>Gênero: </label> <br>
+            <label> Masculinio </label>
+            <input type="radio" name="genero" id="genero"> <br>
+            <label> Feminino </label>
+            <input type="radio" name="genero" id="genero"> <br>
+            <label> Outro </label>
+            <input type="radio" name="genero" id="genero"> <br>
+            <label>Insira o motivo da consulta: </label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea> <br>
+            <label>Possui plano de saúde? Se sim, qual?</label> <br>
+            <label>Sim</label>
+            <input type="radio" name="Possui plano de saúde? Se sim, qual?" id="Possui plano de saúde? Se sim, qual?"> <br>
+            <label>Não</label>
+            <input type="radio" name="Possui plano de saúde? Se sim, qual?" id="Possui plano de saúde? Se sim, qual?"> <br>
+            <label>Plano de saúde: </label>
+            <input type="text" name="Possui plano de saúde? Se sim, qual?" id="Possui plano de saúde? Se sim, qual?"> <br>  
+            <input type="submit" value="Submit"> <br>
+
+            <input type="hidden" name="accessKey" value="1ff3fdb9-5ebf-4ffa-a3b0-43a6508c9b54">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/Projects/html%20e%20css/site%20forms/forms%20obg.html">
+        </form>
+    </section> 
+</body>
+</html>

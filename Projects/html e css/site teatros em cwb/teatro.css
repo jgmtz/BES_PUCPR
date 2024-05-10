@@ -2,11 +2,21 @@ body{
     background-color:#ffeeb7;
 }
 h4{
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;    
+    font-size: 40px;  
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 3em; color: #000000;
+    background-color: #bba251;
+    border-radius: 50px;
+    -webkit-box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.77)
 }
 img{
-
+    max-width:300px;
+    max-height:300px;
+    width: auto;
+    height: auto;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -15,7 +25,7 @@ img{
     margin-bottom: auto;
     -webkit-box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.77)
 }
-.menu{
+.menu{   
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -49,4 +59,10 @@ li{
 }
 a{
     color: black;
+    text-decoration: none;
+}
+.teatro-info{
+    border-spacing:0 8px;
+    max-width: 1500px;
+    max-height: 500px;
 }

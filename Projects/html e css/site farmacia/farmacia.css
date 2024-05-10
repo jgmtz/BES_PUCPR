@@ -1,0 +1,25 @@
+td{
+    padding: .7em;
+    margin: 0;
+    text-align: center;
+}
+
+img.cruz{
+    max-width: 50px;
+    max-height: 50px;
+}
+img.beleza{
+    max-width: 50px;
+    max-height: 50px;
+    background-color: #ffffff;
+    border-radius: 70%;
+    border-color: black;
+    border-style: inset;
+
+}
+table.catego{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
