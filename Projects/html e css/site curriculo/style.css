@@ -1,0 +1,135 @@
+/*começo do cabeçario*/
+.titulo{
+    text-decoration: underline #4d0076;
+}
+.header{
+    background-color: black;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    opacity: 0.95;
+    text-align: center;
+}
+.cabeca{
+    display: inline-block;
+    margin-right: 40px;
+}
+.links{
+    text-decoration: none;
+}
+/*fim do cabeçario*/
+
+/*começo do body e divs*/
+body {
+    background-image: url('imagens/backgrounddd.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    scroll-snap-type: y mandatory;
+    padding: 0;
+    padding-bottom: 50px;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding-top: 60px;
+}
+.box {
+    max-width: 1000px;
+    width: 90%;
+    background: black;
+    opacity: 0.95;
+    border-radius: 50px;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.caixas{
+    background-color: #27003b;
+    width: 250px;
+    height: 200px;
+    border-radius: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border: 2px solid #fff;
+    text-align: center;
+    box-shadow: 0 0 20px #aa0dff, 0 0 30px #27003b, 0 0 40px #27003b, 0 0 50px #27003b, 0 0 75px #27003b;
+}
+.boxes {
+    margin-top: 80px;
+    margin-left: 30px;
+}
+/*fim do body e divs*/
+h1 {
+    color: white;
+    font-size: 80px;
+}
+h2{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 25px;
+}
+h3{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+h4{
+    color: #fff;
+}
+h5{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foto {
+    max-width: 250px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 20px #aa0dff, 0 0 30px #27003b, 0 0 40px #27003b, 0 0 50px #27003b, 0 0 75px #27003b;
+}
+.redes{
+    margin-top: 80px;
+    list-style-type: none;
+    margin-left: -30px;
+}
+.sociais{
+    text-decoration: none;
+    padding: 10px;
+}
+.linka{
+    position: relative;
+    text-decoration: none;
+    color: #333;
+}
+.linka::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px; 
+    width: 100%;
+    border-bottom: 1px solid cyan;
+}
+.rosa{
+    color: purple;
+}
+.azulclaro{
+    color: cyan;
+}
+.yellow{
+    color: yellow;
+}
+.lightyellow{
+    color: rgb(254, 254, 136);
+}
+.azulescuro{
+    color: #0f0ff1;
+}

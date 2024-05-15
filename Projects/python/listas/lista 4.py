@@ -9,4 +9,6 @@ for i in range(10):
 conso = len(consoantes)
 print(consoantes)
 print(conso)
+if conso == True:
+    
         
