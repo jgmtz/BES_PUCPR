@@ -1,14 +1,8 @@
-people = []
-while True:
-    name = input('digite o nome: ')
-    rg = input('digite o rg: ')
-    cpf = input('digite o cpf: ')
-    person = (name, rg, cpf)
-    people.append(person)
-    resp = input('deseja continuar cadastrando? (s/n): ')
-    if resp == 'n':
-        break
-print(f'lista de pessoas: {people}')
-print(f'nome: {person[0]}')
-print(f'rg: {person[1]}')
-print(f'cpf: {person[2]}')
+lista1 = [1, 2, 3, 4, 5]
+lista2 = [6, 7, 8, 9]
+lista2.append(10)
+print(lista2)
+lista1.extend(lista2)
+print(lista1)
+lista1.insert(10, [3])
+print(lista1)

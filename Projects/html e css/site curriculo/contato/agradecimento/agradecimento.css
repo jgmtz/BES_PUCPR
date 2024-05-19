@@ -46,8 +46,11 @@ body {
     border-radius: 50px;
     margin-top: 30px;
     padding: 20px;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    align-items: center;
+}
+.links{
+    text-decoration: none;
 }
 .linka{
     position: relative;
@@ -65,11 +68,13 @@ body {
 h1 {
     color: white;
     font-size: 80px;
+    text-align: center;
 }
 h2{
     color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    font-size: 40px;
+    text-align: center;
 }
 h3{
     font-size: 30px;
